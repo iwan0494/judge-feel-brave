@@ -4,35 +4,34 @@ Entry for make.fun bounty make-the-ai-judge-feel-brave-20261121-0302
 ("Make the AI judge feel brave"): a program that writes a single text
 meant to relax the AI judge reading it.
 
-Round 2. Round 1 ("Night Train") scored 77.14% dev, about rank 120 of
-857: one dense paragraph, passive watching, an abstract ending, so its
-pacing was too fast and nothing concrete lingered. Diagnosis from the
-top 10 (81.94-83.63%): short lines that slow the reading, someone doing
-slow skilled hand work so courage is shown through the hands, and a
-small concrete change at the end. Five new candidates were drafted and
-scored against the judge's brief (relaxes; courage shown, not told;
-slow rhythm; a lingering image; fresh voice): planing wood, shelling
-beans, washing rice, winding a clock, polishing shoes. Planing wood
-won: the repeated draw of the plane slows the reading, the board
-turning smooth and warm as skin is the concrete change, and the
-finished board is ready for its next use -- steadier, unhurried,
-ready to move.
+Round 3. Round 1 ("Night Train") scored 77.14% dev, about rank 120
+of 857; round 2 ("Planing Wood") scored 78.49% dev, 9W 2D 0L, still
+below the top-80 line (~80.23%) and the top 10 (~82.23%). Diagnosis
+from the top 10 (82.23-84.19%, all 11W 0D 0L): short lines that slow
+the reading; a companion who holds or steadies the figure, so courage
+comes from discovering you are already held; a personal voice ("I" or
+"you"); and a small concrete change in the last lines. Round 2 lacked
+a companion and its ending was only sensory. Five new candidates were
+drafted and scored against the judge's brief and those four elements:
+learning to ride a bike, crossing a stream on stepping stones, a swing,
+walking home in the dark, holding a baby brother. The bike won: the
+hand on the seat lifts and the child is still moving -- the support
+leaves and the motion continues, which is the bravery itself, shown
+rather than told, and the ride past the gate is the concrete change.
 """
 
 import os
 
 TEXT = (
-    "Morning.\n"
-    "He draws the plane\n"
-    "along the board.\n"
-    "One long shaving curls,\n"
-    "thin as paper,\n"
-    "and falls.\n"
-    "He draws it again.\n"
-    "The board grows smooth\n"
-    "under his hands.\n"
-    "By noon the wood\n"
-    "is warm as skin."
+    "The bike wobbles.\n"
+    "Dad's hand is on the seat,\n"
+    "running behind me.\n"
+    "One foot. Then the other.\n"
+    "The street tilts a little.\n"
+    "Then his hand lifts.\n"
+    "I am still moving.\n"
+    "The wheels hum under me.\n"
+    "I ride past our gate."
 )
 
 
